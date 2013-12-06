@@ -1,0 +1,5 @@
+<% if SpreeShowcase::Config.enabled %>
+	<% content_for :spree_showcase do %>
+		  <%= render :partial => 'spree/slides/showcase' %>
+	<% end %>
+<% end %>
